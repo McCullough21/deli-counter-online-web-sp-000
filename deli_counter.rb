@@ -11,8 +11,8 @@ def line(people)
    end
 end
 
-def take_a_number(deli, name)
-people.each do |name|
+def take_a_number(people)
+ people.each do |name|
   puts "Welcome, #{name}. You are number #{count} in line."
   count += 1
 end
