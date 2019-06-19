@@ -12,6 +12,8 @@ def line(people)
 end
 
 def take_a_number(array, name)
-    puts "Welcome, #{name}. You are number #{array[] + 1} in line."
-   
+    if !array.include?("#{name}")
+    array.push("#{name}")
+    puts "Welcome, #{name}. You are number #{array.size} in line."
+    end
 end
