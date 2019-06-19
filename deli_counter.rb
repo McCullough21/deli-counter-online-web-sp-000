@@ -13,6 +13,6 @@ end
 
 def take_a_number(array, people)
    count = 1
-    puts "Welcome, #{array[-1]}. You are number #{count} in line."
+    puts "Welcome, #{people}. You are number #{count} in line."
   count += 1
 end
