@@ -12,9 +12,6 @@ def line(people)
 end
 
 def take_a_number(array, name)
-   count = 1
-    array.each do |name|
     puts "Welcome, #{name}. You are number #{array[] + 1} in line."
-    count += 1
    end
 end
