@@ -7,7 +7,7 @@ def line(people)
      line << "#{count}. #{name}"
      count += 1
    end
-   line.join(" ")
+   puts line.join(" ")
    end
 end
 # people.each do |name|
