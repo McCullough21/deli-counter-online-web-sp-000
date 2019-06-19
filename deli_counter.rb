@@ -20,7 +20,7 @@ end
 
 def now_serving(array)
   until array.length == 0
-       puts "#{array[1]}."
+       puts "Currently serving #{array[1]}."
        array.delete_at(0)
    end
    puts "There is nobody waiting to be served!"
