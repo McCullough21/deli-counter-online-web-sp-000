@@ -13,8 +13,8 @@ end
 
 def take_a_number(array, name)
    count == 1
-   array.each do |name|
+   array[-1]
    puts "Welcome, #{name}. You are number #{count} in line."
-  count += 1
+   count += 1
 end
 end
