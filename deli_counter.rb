@@ -20,9 +20,7 @@ end
 
 def now_serving(array)
   until array.length == 0
-       puts "Currently serving #{array.first}."
-       array.shift
-       array
+       puts "Currently serving #{array.shift}."
    end
    puts "There is nobody waiting to be served!"
 end
