@@ -10,6 +10,10 @@ def line(people)
    puts line.join(" ")
    end
 end
-# people.each do |name|
-#   puts "Welcome, #{name}. You are number #{count} in line."
-#   count += 1
+
+def take_a_number(deli, name)
+people.each do |name|
+  puts "Welcome, #{name}. You are number #{count} in line."
+  count += 1
+end
+end
