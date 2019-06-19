@@ -6,4 +6,5 @@ def line(people)
      puts "Welcome, #{name}. You are number #{count} in line."
      count += 1
    end
+   end
 end
