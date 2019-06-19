@@ -11,10 +11,10 @@ def line(people)
    end
 end
 
-def take_a_number(array, name)
+def take_a_number(array, people)
    count = 1
-   if !array.include?("name")
-   puts "Welcome, #{name}. You are number #{count} in line."
-   count += 1
-   end
+   people.each do |name|
+    puts "Welcome, #{name}. You are number #{count} in line."
+  count += 1
+end
 end
