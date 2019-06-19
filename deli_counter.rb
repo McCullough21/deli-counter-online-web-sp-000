@@ -19,9 +19,11 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  if array.size > 0
-     "Currently serving #{array[0]}."
+  if array.size == 0
+    "There is nobody waiting to be served!"
+  elsif array.size > 0
+       array.each do |name|
+       "Currently serving #{name}."
      array.shift
-   elsif "There is nobody waiting to be served!"
   end
 end
