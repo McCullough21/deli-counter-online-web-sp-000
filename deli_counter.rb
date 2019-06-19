@@ -12,6 +12,7 @@ def line(people)
 end
 
 def take_a_number(people)
+ count == 1
  people.each do |name|
   puts "Welcome, #{name}. You are number #{count} in line."
   count += 1
