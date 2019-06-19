@@ -12,7 +12,7 @@ def line(people)
 end
 
 def take_a_number(array, name)
-   count == 1
+   count = 1
    if !array.include?("name")
    puts "Welcome, #{name}. You are number #{count} in line."
    count += 1
