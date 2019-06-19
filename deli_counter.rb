@@ -11,7 +11,7 @@ def line(people)
    end
 end
 
-def take_a_number(people)
+def take_a_number(count, people)
  count == 1
  people.each do |name|
   puts "Welcome, #{name}. You are number #{count} in line."
