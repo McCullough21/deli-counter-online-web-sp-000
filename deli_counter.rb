@@ -11,7 +11,7 @@ def line(people)
    end
 end
 
-def take_a_number(array, people)
+def take_a_number(array, name)
    count = 1
    array.push("#{name}")
     puts "Welcome, #{people}. You are number #{count} in line."
