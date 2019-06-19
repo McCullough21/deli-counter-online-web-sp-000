@@ -13,8 +13,7 @@ end
 
 def take_a_number(array, name)
    count = 1
-   when !array.include?("#{name}")
-    array.push("#{name}")
+    array.each do |name|
     puts "Welcome, #{name}. You are number #{count} in line."
    count += 1
    end
