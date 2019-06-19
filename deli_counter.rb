@@ -14,6 +14,6 @@ end
 def take_a_number(array, name)
    count = 1
    array.push("#{name}")
-    puts "Welcome, #{people}. You are number #{count} in line."
+    puts "Welcome, #{name}. You are number #{count} in line."
   count += 1
 end
