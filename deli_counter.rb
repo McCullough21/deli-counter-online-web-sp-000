@@ -16,4 +16,3 @@ def take_a_number(array, name)
    puts "Welcome, #{array[-1]}. You are number #{count} in line."
    count += 1
 end
-end
