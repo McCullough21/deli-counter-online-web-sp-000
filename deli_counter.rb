@@ -13,7 +13,9 @@ end
 
 def take_a_number(array, name)
    count = 1
-   array.push("#{name}")
+   if array.include?("#{name}")
+    array.push("#{name}")
     puts "Welcome, #{name}. You are number #{count} in line."
-  count += 1
+   count += 1
+   end
 end
