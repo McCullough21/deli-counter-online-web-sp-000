@@ -7,8 +7,9 @@ def line(people)
      line << "#{count}. #{name}"
      count += 1
    end
+   line.join(" ")
    end
 end
-people.each do |name|
-  puts "Welcome, #{name}. You are number #{count} in line."
-  count += 1
+# people.each do |name|
+#   puts "Welcome, #{name}. You are number #{count} in line."
+#   count += 1
