@@ -13,8 +13,7 @@ end
 
 def take_a_number(array, name)
    count == 1
-   array[-1]
-   puts "Welcome, #{name}. You are number #{count} in line."
+   puts "Welcome, #{array[-1]}. You are number #{count} in line."
    count += 1
 end
 end
